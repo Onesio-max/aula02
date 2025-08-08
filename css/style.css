@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #a2cdf8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container principal */
+.conteiner {
+    max-width: 800px;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #2980b9;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Subtítulo */
+.conteiner > p, 
+center > p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Lista principal */
+ul {
+    list-style: none;
+}
+
+/* Títulos das seções */
+ul strong li {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos dentro das seções */
+ul p {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Efeito hover nos títulos */
+ul strong li:hover {
+    color: #1abc9c;
+    cursor: default;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .conteiner {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
